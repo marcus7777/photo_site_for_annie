@@ -36,21 +36,21 @@ img{display:inline}
 #cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
 
 #menu{position:absolute;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px}
-#menu div{height:100px;background:url(bg.png)}
+#menu div{height:7.7em;background:url(bg.png)}
 #menu div a img {bottom:0px;left:200px;position:absolute}
 #menu ul.tabs {bottom:0px;right:0px;position:absolute}
-#menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:100px;height:100px}
+#menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:7em;height:5.7em}
 
-#menu div div#primary ul.links {height:100px;text-align:right;width:100px;margin: 0;}
-#menu div div#primary {background:transparent none ;bottom:0px;left:115px;width:100px;position:absolute;height:100px;background:transparent url(bg.png)}
+#menu div div#primary ul.links {height:7em;text-align:right;width:7em;margin: 0;padding:.35em 0}
+#menu div div#primary {bottom:0px;left:8em;width:7em;position:absolute;height:7em;padding:.35em 0;background:transparent url(bg.png)}
 
-#menu div div#secondary ul.links {height:100px;text-align:right;width:115px;margin:0}
+#menu div div#secondary ul.links {padding:.35em 0;height:7em;text-align:right;width:8em;margin:0}
 
-#menu div div#secondary {font-size:0.9em;background:transparent none ;bottom:0px;left:0px;width:115px;position:absolute;height:100px;background:transparent url(bg.png)}
+#menu div div#secondary {padding:.35em 0;bottom:0px;left:0;width:8em;position:absolute;height:7em;background:transparent url(bg.png)}
 
 ul{float:left;}
 #menu div li {padding:0}
-li a{white-space:nowrap;height:19px;padding:0 5px;color:#c4e2e9;display:block}
+li a{white-space:nowrap;height:1.3em;padding:0 5px;color:#c4e2e9;display:block}
 li.active-trail a{background:#888}
 li a:hover,
 li a.active{background:white;color:#000}
@@ -77,11 +77,10 @@ li a.active{background:white;color:#000}
 .Centre{left:37%}
 .Right{right:25px}
 
-.large{padding-bottom:100px;width:74%}
-.medium{padding-bottom:100px;width:50%}
-.small{padding-bottom:100px;width:26%}
-
-
+.large{padding-bottom:7.7em;width:74%}
+.medium{padding-bottom:7.7em;width:50%}
+.small{padding-bottom:7.7em;width:26%}
+body a span.dark {color: #72ccea !important;font-size: 68px !important}
 .large.Centre{left:13%}
 .medium.Centre{left:25%}
 .small.Centre{left:37%}
@@ -99,9 +98,9 @@ dd{height:0px;overflow:hidden;width:440px}
 #photos a{width:20px;float:left;margin-left:1px;background:#000;font-weight:bold;overflow:hidden}
 #photos a:hover,#photos a.cur{background:#fff;color:#000}
 
-a#site-name {bottom:0;color:#C4E2E9;font-size:60px;left:212px;line-height:70px;position:absolute}
-a#site-name span {color:PowderBlue;font-size:21px;font-weight:300;line-height:24px;margin:0 0 0 10px;white-space:nowrap}
-
+a#site-name {bottom:3px;color:#C4E2E9;font-size:68px;left:248px;position:absolute}
+a#site-name span {color: PowderBlue;font-size: 0.537em;font-weight: 300;line-height: 56px;margin: 0 0 0 10px;white-space: nowrap}
+#copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
 #modalContainer {overflow:hidden;}
 div#admin-toolbar {-x-system-font:none;background:transparent url(/sites/all/modules/admin/toolbar/sprite.png) repeat-x scroll 0 -20px;
 bottom:0;color:#CCCCCC;font-family:"Lucida Grande",Verdana,sans-serif;
@@ -116,11 +115,7 @@ line-height:20px;
 position:absolute;
 z-index:100;
 }
-#menu div li {height:19px;margin:0;padding:0;display:block;}
-#fixed_menu li a {    
-    display: inline-block;
-    padding: 0 0 0 4px;
-}
+#menu div li {height:1.3em;margin:0;padding:0;display:block;}
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
 /* For portrait layouts only */
 }
