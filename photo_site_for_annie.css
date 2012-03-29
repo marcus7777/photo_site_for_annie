@@ -1,0 +1,168 @@
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{font-variant:normal}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top}
+sub {vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+/*because legend doesn't inherit in IE */
+legend{color:#000}
+
+*{border:0px solid #eee;margin:0;padding:0;list-style:none}
+html,body,#bg,#bg table,#bg td,#cont{width:100%;height:100%;overflow:hidden;top: 0px; margin-top: 0px}
+body{font-family:Arial,Helvetica,sans-serif;font-size:16px;cursor:default;background:url(bg.png);color:#c4e2e9}
+h1,h2{font-family:Arial,sans-serif;font-size:40px}
+h2,.box div img{padding-bottom:10px}
+a{text-decoration:none;color:#fff;outline:0}
+img{display:inline}
+
+.bg div{position:absolute;width:200%;height:200%;top:-50%;left:-50%}
+.bg td{vertical-align:middle;text-align:center}
+.bg img{min-height:50%;min-width:50%;margin:0 auto}
+
+.cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
+
+
+#bg div{position:absolute;width:200%;height:200%;top:-50%;left:-50%}
+#bg td{vertical-align:middle;text-align:center}
+#bg img{min-height:50%;min-width:50%;margin:0 auto}
+
+#cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
+
+#menu{position:absolute;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px}
+#menu div{height:100px;background:url(bg.png)}
+#menu div a img {bottom:0px;left:200px;position:absolute}
+#menu ul.tabs {bottom:0px;right:0px;position:absolute}
+#menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:100px;height:100px}
+
+#menu div div#primary ul.links {height:100px;text-align:right;width:100px;margin: 0;}
+#menu div div#primary {background:transparent none ;bottom:0px;left:115px;width:100px;position:absolute;height:100px;background:transparent url(bg.png)}
+
+#menu div div#secondary ul.links {height:100px;text-align:right;width:115px;margin:0}
+
+#menu div div#secondary {font-size:0.9em;background:transparent none ;bottom:0px;left:0px;width:115px;position:absolute;height:100px;background:transparent url(bg.png)}
+
+ul{float:left;}
+#menu div li {padding:0}
+li a{white-space:nowrap;height:19px;padding:0 5px;color:#c4e2e9;display:block}
+li.active-trail a{background:#888}
+li a:hover,
+li a.active{background:white;color:#000}
+.yes *, .no *, .yes, .no {
+  overflow: visible;
+}
+.yes div{line-height:1.5em;background:url(bg.png);padding:20px 30px}
+
+.yes div div,.no div div{display:inline;background:none;padding:0}
+.yes div ul,.no div ul,.yes div li,.no div li{float:none;list-style-position:inside;list-style-type:disc}
+.yes a,.no a{text-decoration:underline}
+.yes div p, .no div p {margin-bottom:10px}
+.large h2{font-size:60px}
+.field-field-ss-photo .field-items .field-item {
+  
+}
+.white{color:#fff}
+
+.Top{top:25px;position:absolute}
+.Middle{top:45%;position:absolute}
+.Bottom{bottom:0;position:absolute}
+
+.Left{left:25px}
+.Centre{left:37%}
+.Right{right:25px}
+
+.large{padding-bottom:100px;width:74%}
+.medium{padding-bottom:100px;width:50%}
+.small{padding-bottom:100px;width:26%}
+
+
+.large.Centre{left:13%}
+.medium.Centre{left:25%}
+.small.Centre{left:37%}
+
+h3{position:relative;border-bottom-width:1px;padding:30px 30px 10px 30px;margin:0 -30px 20px -30px;text-transform:uppercase;line-height:20px;font-weight:bold}
+h3 span{position:absolute;right:510px;top:29px;background:#000;text-align:center;padding:0 5px;white-space:nowrap;display:block;color:#fff;font-weight:normal}
+
+dl{margin:10px 0}
+dt,dd p{padding:15px 0 25px 0;display:block;border-top-width:1px;width:440px}
+dt{text-transform:uppercase;padding:0 5px;cursor:pointer;line-height:20px;height:20px;font-weight:bold;width:430px}
+dd{height:0px;overflow:hidden;width:440px}
+
+#photos{position:absolute;z-index:90;bottom:41px;right:40px;height:20px;overflow:hidden}
+#photos a,#float{z-index:90;height:20px;line-height:20px;text-align:center;width:40px;background:#000 url(gal.gif) -6px 5px no-repeat;cursor:pointer;color:#fff}
+#photos a{width:20px;float:left;margin-left:1px;background:#000;font-weight:bold;overflow:hidden}
+#photos a:hover,#photos a.cur{background:#fff;color:#000}
+
+a#site-name {bottom:0;color:#C4E2E9;font-size:60px;left:212px;line-height:70px;position:absolute}
+a#site-name span {color:PowderBlue;font-size:21px;font-weight:300;line-height:24px;margin:0 0 0 10px;white-space:nowrap}
+
+#modalContainer {overflow:hidden;}
+div#admin-toolbar {-x-system-font:none;background:transparent url(/sites/all/modules/admin/toolbar/sprite.png) repeat-x scroll 0 -20px;
+bottom:0;color:#CCCCCC;font-family:"Lucida Grande",Verdana,sans-serif;
+font-size:11px;width: 707px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+left:216px;
+line-height:20px;
+position:absolute;
+z-index:100;
+}
+#menu div li {height:19px;margin:0;padding:0;display:block;}
+#fixed_menu li a {    
+    display: inline-block;
+    padding: 0 0 0 4px;
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+.iPad {
+/* For landscape layouts only */
+}
+.iPad {position:fixed;bottom:0;left:0;top:0;right:0;z-index:-1;width:100%;height:100%;overflow-y:auto}
+
+.iPad #full-screen-background-image {
+  position: fixed;
+}
+
+.iPad #full-screen-background-image {
+  min-height: 1024px;
+  min-width: 768px;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*
+
+.iPad .Left{left:0px}
+.iPad .Centre{left:378px}
+.iPad .Right{right:0px}
+
+.iPad .large{padding-bottom:100px;width:757px}
+.iPad .medium{padding-bottom:100px;width:500px}
+.iPad .small{padding-bottom:100px;width:266px}
+
+.iPad .large.Centre{left:133px}
+.iPad .medium.Centre{left:255px}
+.iPad .small.Centre{left:378px}
+
+.iPad .Top{top:25px;position:absolute;}
+.iPad .Middle{top:300px;position:absolute;}*/
+.iPad .Bottom{top:100px;padding:100px;position:absolute;} 
+
+.iPad #lightbox2-overlay {min-width: 1024px;}
+.iPad #menu {position:fixed;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px}
+.iPad #menu div{height:100px;background:url(bg.png)}
+.iPad #menu div a img {bottom:0px;left:200px;position:absolute}
+.iPad #menu ul.tabs {bottom:0px;right:0px;position:absolute}
+.iPad #menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:100px;height:100px}
