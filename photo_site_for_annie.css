@@ -93,7 +93,7 @@ dd{height:0px;overflow:hidden;width:440px}
 a#site-name {bottom:3px;color:#C4E2E9;font-size:68px;left:248px;position:absolute}
 a#site-name span {color: PowderBlue;font-size:68px;font-weight: 300;line-height: 56px;margin: 0 0 0 10px;white-space: nowrap}
 a#site-name span.dark {color: #72ccea !important;}
-a#site-name span.site_slogan {font-size:48px}
+a#site-name span.slogan {font-size:48px}
 
 #copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
 #modalContainer {overflow:hidden;}
@@ -105,7 +105,7 @@ a#site-name span.site_slogan {font-size:48px}
   #menu div{height:15em}
   a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:248px;position:absolute}
   a#site-name span {color: PowderBlue;font-size:37px;font-weight: 300;line-height: 30px;margin: 0 0 0 10px;white-space: nowrap}
-  a#site-name span.site_slogan {font-size:23px}
+  a#site-name span.slogan {font-size:23px}
 }
 div#admin-toolbar {-x-system-font:none;background:transparent url(/sites/all/modules/admin/toolbar/sprite.png) repeat-x scroll 0 -20px;
 bottom:0;color:#CCCCCC;font-family:"Lucida Grande",Verdana,sans-serif;
