@@ -23,7 +23,6 @@ a{text-decoration:none;color:#fff;outline:0}
 img{display:inline}
 
 .cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
-
 #cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
 
 #menu{position:absolute;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px}
@@ -106,6 +105,21 @@ a#site-name span.slogan {font-size:48px}
   a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:248px;position:absolute}
   a#site-name span {color: PowderBlue;font-size:37px;font-weight: 300;line-height: 30px;margin: 0 0 0 10px;white-space: nowrap}
   a#site-name span.slogan {font-size:23px}
+  .Top{top:25px;position:absolute}
+  .Middle{top:25%;position:absolute}
+  .Bottom{bottom:0;position:absolute}
+
+  .Left{left:25px}
+  .Centre{left:37%}
+  .Right{right:25px}
+
+  .large{padding-bottom:7.7em;width:93.3%}
+  .medium{padding-bottom:7.7em;width:70%}
+  .small{padding-bottom:7.7em;width:50%}
+
+  .large.Centre{left:3.3%}
+  .medium.Centre{left:15%}
+  .small.Centre{left:25%}
 }
 div#admin-toolbar {-x-system-font:none;background:transparent url(/sites/all/modules/admin/toolbar/sprite.png) repeat-x scroll 0 -20px;
 bottom:0;color:#CCCCCC;font-family:"Lucida Grande",Verdana,sans-serif;
