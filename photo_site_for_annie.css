@@ -121,6 +121,11 @@ a#site-name span.slogan {font-size:36px}
   .medium.Centre{left:15%}
   .small.Centre{left:25%}
 }
+@media only screen and (max-width:620px) {
+  a#site-name {font-size:32px}
+  a#site-name span {font-size:32px}
+  a#site-name span.slogan {font-size:20px}
+}
 @media only screen and (max-width: 800px) {
   a#site-name {font-size:42px}
   a#site-name span {font-size:42px}
