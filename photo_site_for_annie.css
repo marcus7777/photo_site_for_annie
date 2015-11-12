@@ -55,9 +55,7 @@ li a.active{background:white;color:#000}
 .yes a,.no a{text-decoration:underline}
 .yes div p, .no div p {margin-bottom:10px}
 .large h2{font-size:60px}
-.field-field-ss-photo .field-items .field-item {
-  
-}
+
 .white{color:#fff}
 
 .Top{top:25px;position:absolute}
@@ -92,7 +90,7 @@ dd{height:0px;overflow:hidden;width:440px}
 a#site-name {bottom:3px;color:#C4E2E9;font-size:68px;left:248px;position:absolute}
 a#site-name span {color: PowderBlue;font-size:68px;font-weight: 300;line-height: 56px;margin: 0 0 0 10px;white-space: nowrap}
 a#site-name span.dark {color: #72ccea !important;}
-a#site-name span.slogan {font-size:48px}
+a#site-name span.slogan {font-size:36px}
 
 #copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
 #modalContainer {overflow:hidden;}
@@ -101,6 +99,8 @@ a#site-name span.slogan {font-size:48px}
 
 @media only screen and (max-width: 600px) {
   #menu div li {line-height:2em}
+  #menu div {line-height:2em}
+  #menu {line-height:2em}
   .medium {width: 70%}
   #menu div{height:15em}
   a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:248px;position:absolute}
@@ -114,7 +114,7 @@ a#site-name span.slogan {font-size:48px}
   .Left{left:25px}
   .Centre{left:37%}
   .Right{right:25px}
-
+
   .large{padding-bottom:15em;width:93.3%}
   .medium{padding-bottom:15em;width:70%}
   .small{padding-bottom:15em;width:50%}
