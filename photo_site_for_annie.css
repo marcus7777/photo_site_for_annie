@@ -99,17 +99,20 @@ a#site-name span.slogan {font-size:36px}
 @media only screen and (max-width: 840px) {
   a#site-name {font-size:42px}
   a#site-name span {font-size:42px}
-  a#site-name span.slogan {font-size:25px}
+  a#site-name span.slogan {font-size:23px}
+  #copyright {left: 34.5em}
 }
 @media only screen and (max-width:720px) {
   a#site-name {font-size:37px}
   a#site-name span {font-size:37px}
   a#site-name span.slogan {font-size:20px}
+  #copyright {left: 24.5em}
 }
 @media only screen and (max-width:620px) {
   a#site-name {font-size:32px}
   a#site-name span {font-size:32px}
   a#site-name span.slogan {font-size:17px}
+  #copyright {left: 14.5em}
 }
 @media only screen and (max-width: 600px) {
   #menu li a{line-height:2em}
