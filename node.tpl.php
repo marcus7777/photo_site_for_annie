@@ -59,13 +59,13 @@ if ($page) {
    $node->field_placement[1]['value'] . " " .
    $node->field_size[0]['value'];
  
-   if ($iPhone) {
-     $background = "iphone";
-   } elseif ($iPad) {
-     $background = "ipad";
-   } else {
-     $background = "background";
-   }
+  if ($iPhone) {
+    $background = "iphone";
+  } elseif ($iPad) {
+    $background = "ipad";
+  } else {
+    $background = "background";
+  }
   
 ?>  
   <div id="cont">
@@ -74,21 +74,26 @@ if ($page) {
     </div></div>
   </div>
 	
-  <div id="bg">
-    <div>
-      <table cellpadding="0" cellspacing="0">
-        <tr>
-	   <td>
-	      <img id="full-screen-background-image" alt="background" src="/sites/beta.anniebungeroth.com/files/imagecache/<?php 
-	      print $background; 
-	      ?>/<?php
+<style>
+  html{
+	  /* This image will be displayed fullscreen */
+	  background:url('/sites/beta.anniebungeroth.com/files/imagecache/<?php print $background; ?>/<?php
 	       print $node_bg->field_photo[0][filepath]; 
-	      ?>" />
-	   </td>
-	</tr>
-      </table>
-    </div>
-  </div>
+	      ?>') no-repeat center center;
+
+	  /* Ensure the html element always takes up the full height of the browser window */
+	  min-height:100%;
+
+	  /* The Magic */
+	  background-size:cover;
+  }
+
+  body{
+	  /* Workaround for some mobile browsers */
+	  min-height:100%;
+  }
+</style>
+
 <?php
 } else {
    print $content;
