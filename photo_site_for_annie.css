@@ -39,7 +39,7 @@ img{display:inline}
 #menu div{height:7.7em;background:url(bg.png)}
 #menu div a img {bottom:0px;left:200px;position:absolute}
 #menu ul.tabs {bottom:0px;right:0px;position:absolute}
-#menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:7em;height:5.7em}
+#menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:7em;height: 6.7em;}
 
 #menu div div#primary ul.links {height:7em;text-align:right;width:7em;margin: 0;padding:.35em 0}
 #menu div div#primary {bottom:0px;left:8em;width:7em;position:absolute;height:7em;padding:.35em 0;background:transparent url(bg.png)}

@@ -121,6 +121,9 @@ if ( $iPod || $iPhone || $iPad )  {$body_classes .= " iPad"; }
               print l(t("blog"), "node/". $last_blog);
             ?></li>
             <li><?php 
+              print l(t("published"), "node/538");
+            ?></li>
+            <li><?php 
               print l(t("about me"), "node/371");
             ?></li>
         <li><?php 
