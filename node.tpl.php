@@ -74,12 +74,9 @@ if ($page) {
     </div></div>
   </div>
 	
-  <div id="bg">
-    <div>
-      <table cellpadding="0" cellspacing="0">
-        <tr>
-	   <td>
-	      <img id="full-screen-background-image" alt="background" src="/sites/beta.anniebungeroth.com/files/imagecache/<?php 
+<stale
+
+/sites/beta.anniebungeroth.com/files/imagecache/<?php 
 	      print $background; 
 	      ?>/<?php
 	       print $node_bg->field_photo[0][filepath]; 
