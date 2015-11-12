@@ -90,7 +90,7 @@ if ( $iPod || $iPhone || $iPad )  {$body_classes .= " iPad"; }
 <head>
   <title><?php print $head_title; ?></title>
   <?php print $head; ?>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=2">
   <?php print $styles; ?><meta name="google-site-verification" content="epc5o33gaca_68_WaWj3qXsrmETF3hQ_K8CvshwY_fs" />
   <script type="text/javascript"><?php /* Needed to avoid Flash of Unstyled Content in IE */ ?> </script>
 </head>
