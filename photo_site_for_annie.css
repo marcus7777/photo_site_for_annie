@@ -109,6 +109,7 @@ a#site-name span.slogan {font-size:36px}
   #copyright {display:none}
 }
 @media only screen and (max-width: 600px) {
+  body{font-size:20px}
   #menu li a{line-height:2em}
   .medium {width: 70%}
   #menu div{height:15em}
