@@ -40,7 +40,7 @@ img{display:inline}
 
 ul{float:left;}
 #menu div li {padding:0}
-li a{white-space:nowrap;height:1.3em;padding:0 5px;color:#c4e2e9;display:block}
+li a{white-space:nowrap;line-height:1.3em;padding:0 5px;color:#c4e2e9;display:block}
 li.active-trail a{background:#888}
 li a:hover,
 li a.active{background:white;color:#000}
@@ -97,7 +97,7 @@ a#site-name span.slogan {font-size:48px}
 #copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
 #modalContainer {overflow:hidden;}
 
-#menu div li {height:1.3em;margin:0;padding:0;display:block;}
+#menu div li {line-height:1.3em;margin:0;padding:0;display:block;}
 
 @media only screen and (max-width: 600px) {
   .medium {width: 70%}
