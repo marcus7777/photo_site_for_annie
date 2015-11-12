@@ -100,6 +100,7 @@ a#site-name span.slogan {font-size:48px}
 #menu div li {line-height:1.3em;margin:0;padding:0;display:block;}
 
 @media only screen and (max-width: 600px) {
+  #menu div li {line-height:2em}
   .medium {width: 70%}
   #menu div{height:15em}
   a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:248px;position:absolute}
