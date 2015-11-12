@@ -31,12 +31,12 @@ img{display:inline}
 #menu ul.tabs {bottom:0px;right:0px;position:absolute}
 #menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:7em;height: 6.7em;}
 
-#menu div div#primary ul.links {height:7em;text-align:right;width:7em;margin: 0;padding:.35em 0}
-#menu div div#primary {bottom:0px;left:8em;width:7em;position:absolute;height:7em;padding:.35em 0;background:transparent url(bg.png)}
+#menu div div#primary ul.links {text-align:right;width:7em;margin: 0;padding:.35em 0}
+#menu div div#primary {bottom:0px;left:8em;width:7em;position:absolute;padding:.35em 0;background:transparent url(bg.png)}
 
-#menu div div#secondary ul.links {padding:.35em 0;height:7em;text-align:right;width:8em;margin:0}
+#menu div div#secondary ul.links {padding:.35em 0;text-align:right;width:8em;margin:0}
 
-#menu div div#secondary {padding:.35em 0;bottom:0px;left:0;width:8em;position:absolute;height:7em;background:transparent url(bg.png)}
+#menu div div#secondary {padding:.35em 0;bottom:0px;left:0;width:8em;position:absolute;background:transparent url(bg.png)}
 
 ul{float:left;}
 #menu div li {padding:0}
