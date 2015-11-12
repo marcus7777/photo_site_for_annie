@@ -104,7 +104,7 @@ a#site-name span.slogan {font-size:36px}
   
   .Top{top:25px;position:absolute}
   .Middle{top:25%;position:absolute}
-  .Bottom{bottom:0;position:absolute}
+  .Bottom{position:initial}
 
   .Left{left:25px}
   .Centre{left:37%}
