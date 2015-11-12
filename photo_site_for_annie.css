@@ -48,6 +48,7 @@ li a.active{background:white;color:#000}
 .yes *, .no *, .yes, .no {
   overflow: visible;
 }
+
 .yes div{line-height:1.5em;background:url(bg.png);padding:20px 30px}
 
 .yes div div,.no div div{display:inline;background:none;padding:0}
@@ -71,7 +72,7 @@ li a.active{background:white;color:#000}
 .large{padding-bottom:7.7em;width:74%}
 .medium{padding-bottom:7.7em;width:50%}
 .small{padding-bottom:7.7em;width:26%}
-body a span.dark {color: #72ccea !important;font-size: 68px !important}
+
 .large.Centre{left:13%}
 .medium.Centre{left:25%}
 .small.Centre{left:37%}
@@ -91,6 +92,8 @@ dd{height:0px;overflow:hidden;width:440px}
 
 a#site-name {bottom:3px;color:#C4E2E9;font-size:68px;left:248px;position:absolute}
 a#site-name span {color: PowderBlue;font-size: 0.537em;font-weight: 300;line-height: 56px;margin: 0 0 0 10px;white-space: nowrap}
+body a span.dark {color: #72ccea}
+
 #copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
 #modalContainer {overflow:hidden;}
 div#admin-toolbar {-x-system-font:none;background:transparent url(/sites/all/modules/admin/toolbar/sprite.png) repeat-x scroll 0 -20px;
