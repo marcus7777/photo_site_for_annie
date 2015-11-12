@@ -96,6 +96,15 @@ body a#site-name span.dark {color: #72ccea !important;font-size: 68px !important
 
 #copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
 #modalContainer {overflow:hidden;}
+
+#menu div li {height:1.3em;margin:0;padding:0;display:block;}
+
+@media only screen and (max-width: 600px) {
+  .medium {width: 70%}
+  #menu div{height:15em}
+  a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:248px;position:absolute}
+  a#site-name span {color: PowderBlue;font-size:37px;font-weight: 300;line-height: 30px;margin: 0 0 0 10px;white-space: nowrap}
+}
 div#admin-toolbar {-x-system-font:none;background:transparent url(/sites/all/modules/admin/toolbar/sprite.png) repeat-x scroll 0 -20px;
 bottom:0;color:#CCCCCC;font-family:"Lucida Grande",Verdana,sans-serif;
 font-size:11px;width: 707px;
@@ -108,37 +117,4 @@ left:216px;
 line-height:20px;
 position:absolute;
 z-index:100;
-}
-#menu div li {height:1.3em;margin:0;padding:0;display:block;}
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-/* For portrait layouts only */
-}
-
-.iPad .Left{left:0px}
-.iPad .Centre{left:378px}
-.iPad .Right{right:0px}
-
-.iPad .large{padding-bottom:100px;width:757px}
-.iPad .medium{padding-bottom:100px;width:500px}
-.iPad .small{padding-bottom:100px;width:266px}
-
-.iPad .large.Centre{left:133px}
-.iPad .medium.Centre{left:255px}
-.iPad .small.Centre{left:378px}
-
-.iPad .Top{top:25px;position:absolute;}
-.iPad .Middle{top:300px;position:absolute;}
-.iPad .Bottom{top:100px;padding:100px;position:absolute;} 
-
-.iPad #lightbox2-overlay {min-width: 1024px;}
-.iPad #menu {position:fixed;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px}
-.iPad #menu div{height:100px;background:url(bg.png)}
-.iPad #menu div a img {bottom:0px;left:200px;position:absolute}
-.iPad #menu ul.tabs {bottom:0px;right:0px;position:absolute}
-.iPad #menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:100px;height:100px}
-@media only screen and (max-width: 600px) {
-  .medium {width: 70%}
-  #menu div{height:15em}
-  a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:248px;position:absolute}
-  a#site-name span {color: PowderBlue;font-size:37px;font-weight: 300;line-height: 30px;margin: 0 0 0 10px;white-space: nowrap}
 }
