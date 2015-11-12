@@ -133,7 +133,7 @@ z-index:100;
 .iPad #menu div a img {bottom:0px;left:200px;position:absolute}
 .iPad #menu ul.tabs {bottom:0px;right:0px;position:absolute}
 .iPad #menu div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:100px;height:100px}
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .medium {width: 70%}
   #menu div{height:15em}
   a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:248px;position:absolute}
