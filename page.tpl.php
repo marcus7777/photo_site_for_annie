@@ -108,7 +108,7 @@ if ( $iPod || $iPhone || $iPad )  {$body_classes .= " iPad"; }
       </div> <!-- /#primary -->
     <?php endif; ?>
     <a href="<?php print $base_path; ?>" title="<?php print t('Click here to go Home'); ?>" rel="home" id="site-name">
-      <?php print "<span class=dark >annie</span>bungeroth"; ?><br /><span><?php print t($site_slogan); ?></span>
+      <span style="color: #72ccea">annie</span>bungeroth<br /><span><?php print t($site_slogan); ?></span>
     </a><span id=copyright > <?php print l("©", "node/332"); ?></span>
     
     
