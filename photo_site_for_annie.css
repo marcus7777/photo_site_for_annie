@@ -91,7 +91,7 @@ dd{height:0px;overflow:hidden;width:440px}
 #photos a:hover,#photos a.cur{background:#fff;color:#000}
 
 a#site-name {bottom:3px;color:#C4E2E9;font-size:68px;left:248px;position:absolute}
-a#site-name span {color: PowderBlue;font-size: 0.537em;font-weight: 300;line-height: 56px;margin: 0 0 0 10px;white-space: nowrap}
+a#site-name span {color: PowderBlue;font-size:68px;font-weight: 300;line-height: 56px;margin: 0 0 0 10px;white-space: nowrap}
 a#site-name span.dark {color: #72ccea !important;}
 
 #copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
