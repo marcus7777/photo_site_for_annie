@@ -88,10 +88,14 @@ if ( $iPod || $iPhone || $iPad )  {$body_classes .= " iPad"; }
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
 
 <head>
-  <title><?php print $head_title; ?></title>
-  <?php print $head; ?>
+ <title><?php print $head_title; ?></title>
+  <?php print $head; ?><?php  $styles; ?>
   <meta name="viewport" content="width=device-width, initial-scale=.6">
-  <?php print $styles; ?><meta name="google-site-verification" content="epc5o33gaca_68_WaWj3qXsrmETF3hQ_K8CvshwY_fs" />
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/lightbox2/css/lightbox.css?3" />
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/t/public_html/sites/all/modules/extlink/extlink.css?3" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/photo_site_for_annie/photo_site_for_annie.css?3" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/photo_site_for_annie/print.css?3" />
+  <meta name="google-site-verification" content="epc5o33gaca_68_WaWj3qXsrmETF3hQ_K8CvshwY_fs" />
   <script type="text/javascript"><?php /* Needed to avoid Flash of Unstyled Content in IE */ ?> </script>
 </head>
 <body class="<?php print $body_classes; ?>"><?php if (!empty($admin)) print $admin; ?>
