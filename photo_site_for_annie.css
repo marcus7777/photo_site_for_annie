@@ -25,7 +25,7 @@ img{display:inline}
 .cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
 #cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
 
-#menu{position:absolute;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px}
+#menu{position:absolute;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px;min-width: 465px}
 #menu div{height:7.7em;background:url(bg.png)}
 #menu div a img {bottom:0px;left:200px;position:absolute}
 #menu ul.tabs {bottom:0px;right:0px;position:absolute}
